@@ -1,6 +1,6 @@
 Для работы с jitsi необходимо:
 1. добавить скрипт <script src='https://SERVER_URL/external_api.js'></script>
-2. передать имя пользователя через объявление api iframe при помощи
+2. передать имя пользователя через объявление api iframe при помощи кода ниже:
 ```
 const domain = 'SERVER_URL'; // подставить SERVER_URL из config.py
 const options = {
