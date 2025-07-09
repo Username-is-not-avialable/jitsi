@@ -8,19 +8,19 @@
    git clone https://github.com/Username-is-not-avialable/docker-jitsi-meet.git
    cd docker-jitsi-meet
    ```
-2. **Настройка переменных окружения**
+2. **Настройка переменных окружения**  
    Создайте файл .env на основе примера:
    
    ```bash
    cp env.example .env
    ```
-3. **Генерация паролей**
+3. **Генерация паролей**  
    Запустите скрипт для установки безопасных паролей:
    
    ```bash
    ./gen-passwords.sh
    ```
-4. **Создание ```CONFIG``` директорий**
+4. **Создание ```CONFIG``` директорий**  
    Выполните команду для создания ```CONFIG``` директорий
    
    ```bash
@@ -34,8 +34,8 @@
    ```bash
    docker compose up -d
    ```
-7. **Откройте в браузере**
-   Перейдите на https://localhost:8443/
+7. **Откройте в браузере**  
+   Перейдите на https://localhost:8443/  
    Подробнее на официальном сайте https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-docker
 
 ## Инструкция по подключению jitsi к веб странице:
@@ -54,5 +54,5 @@ const api = new JitsiMeetExternalAPI(domain, options);
 ```
 
 ## Создание конференций
-Для создания конференции перейдите по ссылке вида https://SERVER_URL/roomName
+Для создания конференции перейдите по ссылке вида https://SERVER_URL/roomName  
 Если конференция с таким названием существует, вы подключитесь к ней. Если нет - конференция будет создана. 
