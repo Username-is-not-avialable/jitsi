@@ -28,7 +28,7 @@
    ````
 5. **Скопируйте кастомные файлы конфигурации в   ```CONFIG/web``` директорию**
    ```
-   cp custom_configs/* ~/.jitsi-meet-cfg/web
+   cp custom-configs/* ~/.jitsi-meet-cfg/web
    ```
 6. **Запустите проект с помощью docker compose**
    ```bash
