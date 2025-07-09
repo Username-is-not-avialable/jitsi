@@ -35,7 +35,7 @@
    docker compose up -d
    ```
 7. **Откройте в браузере**
-   Перейдите на https://localhost:8443/ 
+   Перейдите на https://localhost:8443/
    Подробнее на официальном сайте https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-docker
 
 ## Инструкция по подключению jitsi к веб странице:
