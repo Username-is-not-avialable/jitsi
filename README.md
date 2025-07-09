@@ -1,4 +1,4 @@
-# Запуск Jitsi Meet через Docker Compose
+## Запуск Jitsi Meet через Docker Compose
 
 ## Подготовка окружения
 
@@ -52,3 +52,7 @@ const options = {
                 parentNode: document.getElementById('jitsi-container'), // пример parentNode
 const api = new JitsiMeetExternalAPI(domain, options);
 ```
+
+## Создание конференций
+Для создания конференции перейдите по ссылке вида https://SERVER_URL/roomName
+Если конференция с таким названием существует, вы подключитесь к ней. Если нет - конференция будет создана. 
