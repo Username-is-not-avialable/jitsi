@@ -1,4 +1,10 @@
-Для работы с jitsi необходимо:
+# Запуск jitsi
+## Установите и заупстите jitsi по инструкции с официального сайта: https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-docker
+## Скопируйте кастомные файлы конфигурации
+```
+cp custom_configs/* ~/.jitsi-meet-cfg/web
+
+Инструкция по подключению jitsi к странице:
 1. добавить скрипт <script src='https://SERVER_URL/external_api.js'></script>
 2. передать имя пользователя через объявление api iframe при помощи кода ниже:
 ```
